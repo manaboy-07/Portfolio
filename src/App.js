@@ -3,6 +3,7 @@
 import "./App.css";
 import Heropg from "./Components/Heropg";
 import About from "./Components/About";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <header className='App-header'>
         <Heropg />
         <About />
+        <Contact />
       </header>
     </div>
   );
