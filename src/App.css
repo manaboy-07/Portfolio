@@ -2,6 +2,7 @@
 
 .background {
   background-image: url("./Assets/Animated.svg");
+  scroll-behavior: smooth;
 }
 .avatar {
   margin-top: 40px;
@@ -16,6 +17,8 @@
 }
 .about-background {
   background-image: url("./Assets/Sprinkle.svg");
+
+  scroll-behavior: smooth;
   background-attachment: fixed;
 }
 .tech-stack {
