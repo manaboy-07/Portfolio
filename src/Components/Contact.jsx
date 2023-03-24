@@ -1,6 +1,8 @@
 /** @format */
 
 import React from "react";
+import Form from "./Form";
+import Socials from "./Socials";
 
 function Contact() {
   return (
@@ -14,43 +16,10 @@ function Contact() {
         </div>
         <div className='w-24 h-2 rounded-sm bg-info md:w-32 '></div>
       </div>
-      <section className='flex flex-col md:flex-row'>
-        <div className='bg-primary text-neutral p-5'>
-          <form action=''>
-            <div className='flex flex-col'>
-              <label htmlFor='Name' className='text-2xl'>
-                Name
-              </label>
-              <input type='text' id='Name' className='input-contact' />
-            </div>
-            <div className='flex flex-col'>
-              <label htmlFor='Name' className='text-2xl '>
-                Email
-              </label>
-              <input
-                type='email'
-                id='email'
-                className='input-contact'
-                required
-              />
-            </div>
-            <div className='flex flex-col'>
-              <label htmlFor='Name' className='text-2xl'>
-                Message
-              </label>
-              <textarea
-                name='message'
-                id=''
-                cols='30'
-                rows='10'
-                className='input-contact'>
-                Message:{" "}
-              </textarea>
-            </div>
-          </form>
-        </div>
-        <div className='bg-primary text-neutral'>{/* Socials */}</div>
-      </section>
+      <div className="flex p-2">
+        <Socials/>
+        <Form/>
+      </div>
     </div>
   );
 }

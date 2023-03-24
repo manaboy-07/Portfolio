@@ -2,9 +2,11 @@
 
 import React from "react";
 import Avatar from "../Assets/Avatar.png";
+import Navbar from "./Navbar";
 function Heropg() {
   return (
     <div>
+      <Navbar/>
       <section className='background flex flex-row items-center justify-center'>
         <div className='flex item-center justify-around p-12 flex-col md:flex-row'>
           <div className='p-7 mt-20'>

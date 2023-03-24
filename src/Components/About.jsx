@@ -8,7 +8,7 @@ import TechProps from "./TechProps";
 
 function About() {
   return (
-    <div className='about-background'>
+    <div className='about-background' id='about'>
       <div className='p-4 text-3xl mt-7 flex justify-center items-center'>
         <div className='w-24 h-2 rounded-sm bg-info md:w-32 '></div>
         <div className='mx-3'>

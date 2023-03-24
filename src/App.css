@@ -1,9 +1,10 @@
 /** @format */
-
-.background {
-  background-image: url("./Assets/Animated.svg");
+html {
   scroll-behavior: smooth;
 }
+/* .background {
+  background-image: url("./Assets/Animated.svg");
+} */
 .avatar {
   margin-top: 40px;
   width: 80%;
@@ -15,12 +16,10 @@
 
   height: 400px;
 }
-.about-background {
+/* .about-background {
   background-image: url("./Assets/Sprinkle.svg");
-
-  scroll-behavior: smooth;
   background-attachment: fixed;
-}
+} */
 .tech-stack {
   background: rgba(106, 44, 240, 0.95);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
