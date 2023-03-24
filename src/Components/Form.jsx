@@ -77,11 +77,10 @@ function Form() {
     }
   }, [formErrors]);
   return (
-    <section>
-      <div className='contact'>
+    <section className='contact'>
+      <div>
         <div>
           <form action='' ref={formEmail} onSubmit={handleSubmit}>
-            <h1 className='text-primary font-bold'>Get in touch 👊👊👊</h1>
             <div className='field field-1 '>
               <label className='font-bold ' htmlFor='username'>
                 Name :{" "}
@@ -89,6 +88,7 @@ function Form() {
               <input
                 type='text'
                 name='username'
+                className='form-input'
                 value={form.username}
                 onChange={handleChange}
                 required
@@ -102,6 +102,7 @@ function Form() {
               <input
                 type='email'
                 name='email'
+                className='form-input'
                 required
                 value={form.email}
                 onChange={handleChange}
@@ -116,14 +117,18 @@ function Form() {
                 name='message'
                 id='message'
                 cols='30'
+                className='form-input'
                 rows='10'
                 value={form.message}
                 required
                 onChange={handleChange}></textarea>
             </div>
             <div className=' bg-primary my-3 rounded-md text-neutral'>
-              <button type='submit'>
-                Send Message <FaTelegramPlane className='ml-3 btn-icon' />
+              <button
+                type='submit'
+                className='flex p-4 items-center justify-center'>
+                <h3> Send Message</h3>{" "}
+                <FaTelegramPlane className='ml-2 mt-1 btn-icon' />
               </button>
               <ToastContainer
                 theme='colored'

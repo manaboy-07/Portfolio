@@ -10,7 +10,50 @@ html {
   width: 80%;
   height: 80%;
 }
+.contact {
+  width: 50%;
 
+  padding: 20px;
+}
+.socials {
+  padding: 20px;
+  height: 420px;
+}
+.media {
+  background-color: rgb(26, 5, 75);
+  border-radius: 50%;
+  padding: 8px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.media:hover {
+  border-radius: 50%;
+  background-color: #fb7185;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.form-input {
+  font-size: 15px;
+  border: 0;
+  width: 100%;
+  color: purple;
+
+  outline: 0;
+  border-bottom: 2px solid purple;
+}
+.form-input:focus {
+  border: 0;
+
+  border-bottom: 2px solid purple;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
 .me {
   width: 400px;
 
