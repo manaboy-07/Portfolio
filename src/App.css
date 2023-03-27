@@ -5,6 +5,9 @@ html {
 /* .background {
   background-image: url("./Assets/Animated.svg");
 } */
+.blur-bg {
+  border: 1px solid black;
+}
 .avatar {
   margin-top: 40px;
   width: 80%;
@@ -44,8 +47,9 @@ html {
   box-shadow: 20px 20px 60px #ecebeb, -20px -20px 60px #ffffff;
 }
 .p-img {
-  filter: blur(1.8px);
-  -webkit-filter: blur(1.8px);
+  filter: blur(1.2px);
+  border: 1px solid black;
+  -webkit-filter: blur(1.2px);
 }
 .hide {
   display: none;
