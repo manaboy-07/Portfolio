@@ -11,6 +11,7 @@ function App() {
   return (
     <div className='App bg-neutral'>
       <header className='App-header'>
+        <Navbar />
         <Heropg />
         <About />
         <Contact />

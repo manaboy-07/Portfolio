@@ -4,7 +4,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className='flex p-4 bg-black text-primary justify-between items-center '>
+    <div className='flex z-50 p-4 bg-black text-primary justify-between items-center '>
       <section className='text-2xl'>Mana-Dev</section>
       <section>
         <div className='nav '>

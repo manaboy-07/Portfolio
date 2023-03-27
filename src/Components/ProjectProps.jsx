@@ -22,7 +22,7 @@ function ProjectProps({ name, src, des, href }) {
           <h1 className='text-xl bg-slate-300 text-primary p-2 rounded-md '>
             {name}
           </h1>
-          <button className='btn rounded-md bg-primary text-white hover:bg-primary'>
+          <button className='btn mx-7 rounded-md bg-primary text-white hover:bg-primary'>
             <a href={href} target='_blank' rel='noreferrer'>
               <BsGlobe />
             </a>
