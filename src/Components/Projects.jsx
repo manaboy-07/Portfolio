@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import meme from "../Assets/meme.JPG";
 import aos from "../Assets/aos.JPG";
+import Metabnb from "../Assets/Metabnb.JPG";
 import ProjectProps from "./ProjectProps";
 function Projects() {
   return (
@@ -20,18 +21,21 @@ function Projects() {
         <ProjectProps
           name='Meme Gen'
           src={meme}
+          href='https://meme-gen-gamma.vercel.app/'
           des='A meme generator made with an api with an input text field'
         />
         <ProjectProps
           name='AOS website'
+          href='https://website-using-aos-lib.vercel.app/'
           src={aos}
           des='A website using the javascript aos library'
         />
-         {/* <ProjectProps
-          name='AOS website'
-          src={aos}
-          des='A website using the javascript aos library'
-        /> */}
+        <ProjectProps
+          name='Metabnb'
+          href="https://metabnb-manaboy.vercel.app/"
+          src={Metabnb}
+          des='An HNG project that involved the world of the metaverse'
+        />
       </section>
     </div>
   );

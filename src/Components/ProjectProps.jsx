@@ -1,8 +1,8 @@
 /** @format */
 
 import React, { useState } from "react";
-import { BsXLg } from "react-icons/bs";
-function ProjectProps({ name, src, des }) {
+import { BsXLg, BsGlobe } from "react-icons/bs";
+function ProjectProps({ name, src, des, href }) {
   const [overview, setOverview] = useState(false);
   const handleView = () => {
     setOverview(true);
@@ -23,7 +23,9 @@ function ProjectProps({ name, src, des }) {
             {name}
           </h1>
           <button className='btn rounded-md bg-primary text-white hover:bg-primary'>
-            <a href='#'>Visit</a>
+            <a href={href} target='_blank' rel='noreferrer'>
+              <BsGlobe />
+            </a>
           </button>
         </div>
         <div className=' mt-14  blur-bg bg-slate-300  rounded-md p-2'>
