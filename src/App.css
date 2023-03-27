@@ -36,12 +36,39 @@ html {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+.contact-grid {
+  padding: 10px;
+  margin: 40px;
+  border-radius: 50px;
+  background: #ececec;
+  box-shadow: 20px 20px 60px #ecebeb, -20px -20px 60px #ffffff;
+}
+.p-img {
+  filter: blur(1.8px);
+  -webkit-filter: blur(1.8px);
+}
+.hide {
+  display: none;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.show {
+  display: block;
+  transition: all 0.6s ease-in-out;
+  -webkit-transition: all 0.6s ease-in;
+  -moz-transition: all 0.6s ease-in;
+  -ms-transition: all 0.6s ease-in;
+  -o-transition: all 0.6s ease-in;
+}
 .form-input {
   font-size: 15px;
   border: 0;
   width: 100%;
   color: purple;
-
+  background: #ececec;
   outline: 0;
   border-bottom: 2px solid purple;
 }
