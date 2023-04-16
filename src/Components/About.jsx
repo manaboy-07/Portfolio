@@ -30,7 +30,7 @@ function About() {
             Javascript <br />I am a problem solver one of my hobbies involves
             mythology <br /> and i plan to build an app on it.
           </h2>
-          <section className='tech bg-primary rounded-md p-4 mt-5'>
+          <section className='tech bg-slate-100 rounded-md p-4 mt-5'>
             <div className='text-2xl text-neutral mt-4 '>
               Frequently worked with technologies
             </div>
