@@ -12,10 +12,11 @@ function App() {
     <div className='App bg-neutral'>
       <header className='App-header'>
         <Navbar />
-        <Heropg />
-        <About />
-        <Contact />
+        {/* <Heropg /> */}
+        {/* <About />
+
         <Projects />
+        <Contact /> */}
       </header>
     </div>
   );

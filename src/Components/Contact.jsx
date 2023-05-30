@@ -7,8 +7,8 @@ import Socials from "./Socials";
 function Contact() {
   return (
     <div>
-      <div className='p-4 text-3xl mt-7 flex justify-center items-center'>
-        <div className='w-24 h-2 rounded-sm bg-info md:w-32 '></div>
+      <div className='p-4 text-3xl mt-7 flex justify-center items-center' id="contact">
+        <div className='w-24 h-2  bg-info md:w-32 '></div>
         <div className='mx-3'>
           <h2 className='text-4xl font-bold  text-primary md:text-6xl'>
             Get in touch

@@ -5,11 +5,11 @@ import Navbar from "./Navbar";
 
 function Heropg() {
   return (
-    <div className='relative'>
-     
-      <div class='context'>
-
-        <section className='background flex flex-row items-center justify-center'>
+    <div className='relative '  id='home'>
+      <div className='context'>
+        <section
+          className='background flex flex-row items-center justify-center'
+         >
           <div className='flex item-center justify-around p-12 flex-col md:flex-row'>
             <div className='p-7 -mt-28'>
               <h3 className=' text-6xl  '>Hi, I'm Manasseh </h3>

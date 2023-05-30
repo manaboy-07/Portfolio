@@ -123,10 +123,10 @@ function Form() {
                 required
                 onChange={handleChange}></textarea>
             </div>
-            <div className=' bg-primary my-3 rounded-md text-neutral'>
+            <div className=' bg-primary my-3 rounded-md text-neutral '>
               <button
                 type='submit'
-                className='flex p-4 items-center justify-center'>
+                className='flex submit-btn p-4 items-center justify-center'>
                 <h3> Send Message</h3>{" "}
                 <FaTelegramPlane className='ml-2 mt-1 btn-icon' />
               </button>

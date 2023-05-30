@@ -20,7 +20,7 @@ function About() {
       </div>
       <section className='text-xl p-7 flex items-center justify-between flex-col md:flex-row'>
         <div className='mt-4'>
-          <h2 className='font-bold text-black'>
+          <h4 className='text-black'>
             Hello there , i am manasseh a full-stack dev in training <br /> at
             the moment i am on my way to complete my front-end course. <br /> I
             am majoring in Computer Science at Obafemi Awolowo University.
@@ -29,7 +29,7 @@ function About() {
             <br />I love Programming and i'm familiar with Python, C , C++ and
             Javascript <br />I am a problem solver one of my hobbies involves
             mythology <br /> and i plan to build an app on it.
-          </h2>
+          </h4>
           <section className='tech bg-slate-100 rounded-md p-4 mt-5'>
             <div className='text-2xl text-neutral mt-4 '>
               Frequently worked with technologies

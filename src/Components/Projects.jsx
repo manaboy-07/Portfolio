@@ -1,16 +1,16 @@
 /** @format */
 
-import React, { useState } from "react";
+import React from "react";
 import meme from "../Assets/meme.JPG";
 import aos from "../Assets/aos.JPG";
 import greek from "../Assets/greek.JPG";
-import filter from "../Assets/lilies.JPG";
+import filter from "../Assets/filter.JPG";
 import lilies from "../Assets/lilies.JPG";
 import Metabnb from "../Assets/Metabnb.JPG";
 import ProjectProps from "./ProjectProps";
 function Projects() {
   return (
-    <div>
+    <div id='projects'>
       <div className='p-4 text-3xl mt-7 flex justify-center items-center'>
         <div className='w-24 h-2 rounded-sm bg-info md:w-32 '></div>
         <div className='mx-3'>
