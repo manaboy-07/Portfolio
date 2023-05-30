@@ -31,7 +31,7 @@ function Navbar() {
           </div>
         </section>
       </div>
-      <div className={`mobile ${showNav ? "actives" : "inactive"}`}>
+      <div className={`mobile block md:hidden ${showNav ? "actives" : "inactive"}`}>
         <div
           className={`mobile-nav z-50 bg-black block md:hidden m-0 p-0 ${
             showNav ? "actives" : "inactive"
