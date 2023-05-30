@@ -27,7 +27,7 @@ function Icons() {
           href='https://www.linkedin.com/in/oruebor-manasseh-769b041a6/'
           target='_blank'
           rel='noreferrer'
-          class='home__social-icon'>
+          className='home__social-icon'>
           <BsLinkedin className='text-2xl' />
         </a>
       </div>
