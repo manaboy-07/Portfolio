@@ -144,9 +144,10 @@ html {
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(50, 6, 173, 0.2);
-  animation: animate 25s linear infinite;
+  background: rgba(8, 12, 225, 0.434);
+  animation: animate 8s linear infinite;
   bottom: -150px;
+  -webkit-animation: animate 8s linear infinite;
 }
 
 .circles li:nth-child(1) {
