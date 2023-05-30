@@ -1,6 +1,7 @@
 /** @format */
 
 import React, { useState } from "react";
+import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 
 function Navbar() {
   const [showNav, setShowNav] = useState(false);
@@ -32,14 +33,13 @@ function Navbar() {
       </div>
 
       <div
-        className={`mobile-nav bg-black block md:hidden m-0 p-0 ${
+        className={`mobile-nav z-50 bg-black block md:hidden m-0 p-0 ${
           showNav ? "actives" : "inactive"
         }`}>
         <div className='flex flex-col m-4 p-5'>
           <div className='flex justify-between items-center'>
             {" "}
             <section className='text-2xl text-primary'>Mana-Dev</section>
-            <button className='text-primary'>X</button>
           </div>
           <section>
             <div className=''>
@@ -49,13 +49,19 @@ function Navbar() {
                   onClick={() => setShowNav(false)}>
                   <a href='#home'>Home</a>
                 </li>
-                <li className='cursor-pointer text-xl  mx-3 mt-5' onClick={() => setShowNav(false)}>
+                <li
+                  className='cursor-pointer text-xl  mx-3 mt-5'
+                  onClick={() => setShowNav(false)}>
                   <a href='#about'>About</a>
                 </li>
-                <li className='cursor-pointer text-xl  mx-3 mt-5'>
+                <li
+                  className='cursor-pointer text-xl  mx-3 mt-5'
+                  onClick={() => setShowNav(false)}>
                   <a href='#projects'>Projects</a>
                 </li>
-                <li className='cursor-pointer text-xl  mx-3 mt-5'>
+                <li
+                  className='cursor-pointer text-xl  mx-3 mt-5'
+                  onClick={() => setShowNav(false)}>
                   <a href='#contact'>Contact</a>
                 </li>
               </ul>
@@ -64,9 +70,9 @@ function Navbar() {
         </div>
         <div className='flex items-center justify-center'>
           <div
-            className='text-2xl text-primary cursor-pointer'
+            className='text-2xl text-primary cursor-pointer '
             onClick={handleNav}>
-            {showNav ? "up" : "down"}
+            {showNav ? <AiOutlineUp /> : <AiOutlineDown />}
           </div>
         </div>
       </div>
