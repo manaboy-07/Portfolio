@@ -18,7 +18,7 @@ function About() {
         </div>
         <div className='w-24 h-2 rounded-sm bg-info md:w-32 '></div>
       </div>
-      <section className='text-xl p-7 flex items-center justify-between flex-col md:flex-row'>
+      <section className=' p-7 flex items-center justify-between flex-col md:flex-row'>
         <div className='mt-4'>
           <h4 className='text-black'>
             Hello there , i am manasseh a full-stack dev in training <br /> at
@@ -49,7 +49,7 @@ function About() {
           <img
             src={portfolio}
             alt=''
-            className='rounded-full me p-4 border-8 border-primary'
+            className='rounded-full me p-4 border-4 border-primary'
           />
         </div>
       </section>

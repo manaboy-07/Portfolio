@@ -18,13 +18,13 @@ function Heropg() {
                 Hi, I'm Manasseh{" "}
               </h3>
               <h4 className=' text-xl text-secondary mt-4'>
-                I am front-end developer
+                I am Front-End Engineer
               </h4>
-              <h4 className=' text-neutral text-xl mt-4'>
+              <h6 className=' mt-4'>
                 I specialize in building top notch website <br />
                 and other applications for the web.
-              </h4>
-              <img src={code3} alt='' className='w-56 my-12 absolute top-36 code' />
+              </h6>
+              <img src={code3} alt='' className='w-56 my-14 absolute top-36 code' />
             </div>
           </div>
         </section>

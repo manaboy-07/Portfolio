@@ -297,3 +297,9 @@ html {
 .code{
   left: 42%;
 }
+@media only screen and (max-width: 600px){
+  .code{
+    
+    left: 26%;
+  }
+}
