@@ -44,10 +44,12 @@ function Navbar() {
           <section>
             <div className=''>
               <ul className='flex flex-col mt-2'>
-                <li className='cursor-pointer text-xl mx-3 mt-5'>
+                <li
+                  className='cursor-pointer text-xl mx-3 mt-5'
+                  onClick={() => setShowNav(false)}>
                   <a href='#home'>Home</a>
                 </li>
-                <li className='cursor-pointer text-xl  mx-3 mt-5'>
+                <li className='cursor-pointer text-xl  mx-3 mt-5' onClick={() => setShowNav(false)}>
                   <a href='#about'>About</a>
                 </li>
                 <li className='cursor-pointer text-xl  mx-3 mt-5'>
@@ -64,7 +66,7 @@ function Navbar() {
           <div
             className='text-2xl text-primary cursor-pointer'
             onClick={handleNav}>
-            {showNav ? 'up' : 'down'}
+            {showNav ? "up" : "down"}
           </div>
         </div>
       </div>
