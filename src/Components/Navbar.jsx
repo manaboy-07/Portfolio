@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 
 function Navbar() {
-  const [showNav, setShowNav] = useState(true);
+  const [showNav, setShowNav] = useState(false);
   const handleNav = () => {
     setShowNav((prevState) => !prevState);
   };
@@ -71,7 +71,7 @@ function Navbar() {
         </div>
         <div className='flex bg-black items-center justify-center'>
           <div
-            className='text-2xl text-primary cursor-pointer '
+            className='text-2xl text-primary my-7 cursor-pointer '
             onClick={handleNav}>
             {showNav ? <AiOutlineUp /> : <AiOutlineDown />}
           </div>
