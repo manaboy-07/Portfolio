@@ -8,7 +8,7 @@ import Node from "../Assets/nodejs.svg";
 import react from "../Assets/react.svg";
 import Mongo from "../Assets/mongo.svg";
 import Git from "../Assets/git.svg";
-import daisy from "../Assets/daisy.svg";
+import daisy from "../Assets/daisy.png";
 import tailwind from "../Assets/tailwind.svg";
 import material from "../Assets/material.svg";
 
@@ -40,10 +40,10 @@ function About() {
             mythology <br /> and i plan to build an app on it.
           </h4>
           <section className='tech bg-slate-100 rounded-md p-4 mt-5'>
-            <div className='text-2xl text-neutral mt-4 '>
+            <div className='text-2xl text-black mt-4 p-4'>
               Frequently worked with technologies
             </div>
-            <div className='place-items-center grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 '>
+            <div className='place-items-center grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-4 '>
               <TechProps src={Javascript} />
               <TechProps src={react} />
               <TechProps src={Mongo} />

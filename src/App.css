@@ -97,12 +97,16 @@ html {
   background-attachment: fixed;
 } */
 .tech-stack {
-  background: rgba(106, 44, 240, 0.95);
+ 
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(19px);
   -webkit-backdrop-filter: blur(19px);
-  border-radius: 10px;
+  border-radius: 5px;
   border: 2px solid rgba(13, 13, 13, 0.872);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .input-contact {
   outline: 0;
