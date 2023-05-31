@@ -18,7 +18,7 @@ function Heropg() {
                 Hi, I'm Manasseh{" "}
               </h3>
               <h4 className=' text-xl text-secondary mt-4'>
-                I am Front-End Engineer
+                A Front-End Engineer
               </h4>
               <h6 className=' mt-4'>
                 I specialize in building top notch website <br />
