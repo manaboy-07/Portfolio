@@ -2,13 +2,15 @@
 
 import React from "react";
 import portfolio from "../Assets/portfolio1.jpg";
-import Javascript from '../Assets/Javascript.svg'
-import Html from '../Assets/html.svg'
-import Node from '../Assets/nodejs.svg'
-import react from '../Assets/react.svg'
-import Mongo from '../Assets/mongo.svg'
-
-
+import Javascript from "../Assets/Javascript.svg";
+import Html from "../Assets/html.svg";
+import Node from "../Assets/nodejs.svg";
+import react from "../Assets/react.svg";
+import Mongo from "../Assets/mongo.svg";
+import Git from "../Assets/git.svg";
+import daisy from "../Assets/daisy.svg";
+import tailwind from "../Assets/tailwind.svg";
+import material from "../Assets/material.svg";
 
 import Wave from "../Assets/wave.svg";
 import TechProps from "./TechProps";
@@ -42,13 +44,15 @@ function About() {
               Frequently worked with technologies
             </div>
             <div className='place-items-center grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 '>
-              <TechProps src="" />
-              <TechProps src="" />
-              <TechProps src="" />
-              <TechProps src="" />
-              <TechProps src="" />
-              <TechProps src="" />
-              <TechProps src="" />
+              <TechProps src={Javascript} />
+              <TechProps src={react} />
+              <TechProps src={Mongo} />
+              <TechProps src={Html} />
+              <TechProps src={Node} />
+              <TechProps src={Git} />
+              <TechProps src={tailwind} />
+              <TechProps src={daisy} />
+              <TechProps src={material} />
             </div>
           </section>
         </div>
