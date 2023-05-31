@@ -2,6 +2,13 @@
 
 import React from "react";
 import portfolio from "../Assets/portfolio1.jpg";
+import Javascript from '../Assets/Javascript.svg'
+import Html from '../Assets/html.svg'
+import Node from '../Assets/nodejs.svg'
+import react from '../Assets/react.svg'
+import Mongo from '../Assets/mongo.svg'
+
+
 
 import Wave from "../Assets/wave.svg";
 import TechProps from "./TechProps";
@@ -35,13 +42,13 @@ function About() {
               Frequently worked with technologies
             </div>
             <div className='place-items-center grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 '>
-              <TechProps name='React' />
-              <TechProps name='Html' />
-              <TechProps name='CSS' />
-              <TechProps name='JavaScript' />
-              <TechProps name='Node Js' />
-              <TechProps name='Sass' />
-              <TechProps name='Daisy Ui' />
+              <TechProps src="" />
+              <TechProps src="" />
+              <TechProps src="" />
+              <TechProps src="" />
+              <TechProps src="" />
+              <TechProps src="" />
+              <TechProps src="" />
             </div>
           </section>
         </div>
