@@ -43,7 +43,7 @@ function About() {
             <div className='text-2xl text-black mt-4 p-4'>
               Frequently worked with technologies
             </div>
-            <div className='place-items-center grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-4 '>
+            <div className='place-items-center grid lg:grid-cols-4 md:grid-cols-3 grid-cols-3 gap-4 '>
               <TechProps src={Javascript} />
               <TechProps src={react} />
               <TechProps src={Mongo} />

@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <>
       <div className='flex z-50  bg-black text-primary justify-between items-center '>
-        <section className='text-2xl hidden md:block p-5'>Mana-Dev</section>
+        <section className='text-2xl hidden md:block p-5 font-bold' >Mana-Dev</section>
         <section className='hidden md:block'>
           <div className='nav p-5'>
             <ul className='flex flex-col md:flex-row'>
@@ -39,11 +39,11 @@ function Navbar() {
           <div className='flex flex-col m-4 p-5'>
             <div className='flex justify-between items-center'>
               {" "}
-              <section className='text-2xl text-primary'>Mana-Dev</section>
+              <section className='text-2xl text-primary font-bold'>Mana-Dev</section>
             </div>
             <section>
               <div className=''>
-                <ul className='flex flex-col mt-2'>
+                <ul className='flex flex-col mt-2  text-white'>
                   <li
                     className='cursor-pointer text-xl mx-3 mt-5'
                     onClick={() => setShowNav(false)}>

@@ -17,10 +17,10 @@ function Heropg() {
               <h3 className=' text-4xl  text-primary cursor-pointer'>
                 Hi, I'm Manasseh{" "}
               </h3>
-              <h4 className=' text-xl text-secondary mt-4'>
+              <h4 className=' text-2xl text-base-100 mt-4'>
                 A Front-End Engineer
               </h4>
-              <h6 className=' mt-4'>
+              <h6 className=' mt-4 text-slate-400'>
                 I specialize in building top notch website <br />
                 and other applications for the web.
               </h6>
