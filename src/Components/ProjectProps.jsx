@@ -29,7 +29,7 @@ function ProjectProps({ name, src, des, href }) {
           </button>
         </div>
         <div className=' mt-14  blur-bg bg-slate-300  rounded-md p-2'>
-          <div className='flex'>
+          <div className='flex '>
             <button
               onClick={handleView}
               className='btn rounded-md bg-primary text-white hover:bg-primary'>

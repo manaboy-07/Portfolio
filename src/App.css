@@ -220,6 +220,13 @@ html {
   animation-delay: 2s;
   animation-duration: 35s;
 }
+.circles li:nth-child(13) {
+  left: 25%;
+  width: 180px;
+  height: 180px;
+  animation-delay: 1s;
+  animation-duration: 10s;
+}
 
 .circles li:nth-child(10) {
   left: 85%;
@@ -228,7 +235,20 @@ html {
   animation-delay: 0s;
   animation-duration: 11s;
 }
-
+.circles li:nth-child(11) {
+  left: 35%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 2s;
+  animation-duration: 15s;
+}
+.circles li:nth-child(12) {
+  left: 75%;
+  width: 170px;
+  height: 170px;
+  animation-delay: 2s;
+  animation-duration: 18s;
+}
 @keyframes animate {
   0% {
     transform: translateY(0) rotate(0deg);

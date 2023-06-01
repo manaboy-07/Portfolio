@@ -24,7 +24,11 @@ function Heropg() {
                 I specialize in building top notch website <br />
                 and other applications for the web.
               </h6>
-              <img src={code3} alt='' className='w-56 my-14 absolute top-36 code' />
+              <img
+                src={code3}
+                alt=''
+                className='w-56 my-14 absolute top-36 code'
+              />
             </div>
           </div>
         </section>
@@ -32,8 +36,6 @@ function Heropg() {
 
       <div className='area'>
         <ul className='circles'>
-          <li></li>
-          <li></li>
           <li></li>
           <li></li>
           <li></li>
