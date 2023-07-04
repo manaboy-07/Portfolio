@@ -8,6 +8,8 @@ import filter from "../Assets/filter.JPG";
 import lilies from "../Assets/lilies.JPG";
 import Metabnb from "../Assets/Metabnb.JPG";
 import ProjectProps from "./ProjectProps";
+import Room from "../Assets/room.JPG";
+import Shoe from "../Assets/Shoe.JPG";
 function Projects() {
   return (
     <div id='projects'>
@@ -56,6 +58,18 @@ function Projects() {
           href='https://filter-api.vercel.app/'
           src={filter}
           des='One of my first projects working with api'
+        />
+        <ProjectProps
+          name='Shoe Carousel'
+          href='#'
+          src={Shoe}
+          des='A shoe sale carousel projects (Frontend Mentor Project)'
+        />
+        <ProjectProps
+          name='filter api project'
+          href='https://filter-api.vercel.app/'
+          src={Room}
+          des=''
         />
       </section>
     </div>
