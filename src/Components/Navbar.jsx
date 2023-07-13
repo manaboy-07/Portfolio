@@ -15,16 +15,16 @@ function Navbar() {
         <section className='hidden md:block'>
           <div className='nav p-5'>
             <ul className='flex flex-col md:flex-row'>
-              <li className='cursor-pointer text-xl mx-3'>
+              <li className='cursor-pointer text-xl mx-3 hover:text-white'>
                 <a href='#home'>Home</a>
               </li>
-              <li className='cursor-pointer text-xl  mx-3'>
+              <li className='cursor-pointer text-xl  mx-3 hover:text-white'>
                 <a href='#about'>About</a>
               </li>
-              <li className='cursor-pointer text-xl  mx-3'>
+              <li className='cursor-pointer text-xl  mx-3 hover:text-white'>
                 <a href='#projects'>Projects</a>
               </li>
-              <li className='cursor-pointer text-xl  mx-3'>
+              <li className='cursor-pointer text-xl  mx-3 hover:text-white'>
                 <a href='#contact'>Contact</a>
               </li>
             </ul>

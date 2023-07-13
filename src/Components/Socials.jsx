@@ -30,7 +30,7 @@ function Socials() {
           <div className='icon-social mt-4'>
             <a href='mailto:manassehoruebor@gmail.com' className='flex'>
               <BsEnvelopeFill className='text-error text-2xl m-2' />
-              <p className='m-2'>Email</p>
+              <p className='m-2'>manassehoruebor@gmail.com</p>
             </a>
           </div>
           <div className='icon-social mt-4'>

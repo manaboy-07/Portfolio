@@ -11,8 +11,9 @@ import Git from "../Assets/git.svg";
 import daisy from "../Assets/daisy.png";
 import tailwind from "../Assets/tailwind.svg";
 import material from "../Assets/material.svg";
-
+import reduxImg from '../Assets/redux.svg'
 import Wave from "../Assets/wave.svg";
+
 import TechProps from "./TechProps";
 
 function About() {
@@ -53,6 +54,8 @@ function About() {
               <TechProps src={tailwind} />
               <TechProps src={daisy} />
               <TechProps src={material} />
+              <TechProps src={reduxImg} />
+             
             </div>
           </section>
         </div>
