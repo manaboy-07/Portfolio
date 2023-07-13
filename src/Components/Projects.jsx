@@ -74,7 +74,7 @@ function Projects() {
           des='A simple carousel landing page (Frontend Mentor Project) '
         />
         <ProjectProps
-          name='A Room Landing Page'
+          name='Todo List'
           href='https://todo-timer-steel.vercel.app/'
           src={Todo}
           des='Built a todolist with reactjs and tailwind css, also my first time working with local storage '
