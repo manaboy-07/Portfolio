@@ -50,8 +50,8 @@ html {
 }
 .p-img {
   filter: blur(1.2px);
-  width: 410px;
-  height: 250px;
+  /* width: 410px;
+  height: 250px; */
   border: 1px solid black;
   -webkit-filter: blur(1.2px);
 }
