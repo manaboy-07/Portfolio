@@ -12,6 +12,7 @@ import Room from "../Assets/room.JPG";
 import Shoe from "../Assets/Shoe.JPG";
 import LandVault from "../Assets/LandVault.JPG";
 import Todo from "../Assets/TodoJPG.JPG";
+import Youtube from '../Assets/youtube.JPG'
 function Projects() {
   return (
     <div id='projects'>
@@ -84,6 +85,12 @@ function Projects() {
           href='https://land-vault.vercel.app/'
           src={LandVault}
           des='My first experience working with other developers to build a real estate kinda sales website '
+        />
+         <ProjectProps
+          name='Youtube-ish Clone'
+          href='https://ytish-clone-nj15fypwo-manaboy-07.vercel.app/'
+          src={Youtube}
+          des='Learnt how to use and integrate youtube api from rapid api (shout out to Javascript Mastery on youtube), currently building more api web based projects '
         />
 
       </section>
