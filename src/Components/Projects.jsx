@@ -12,8 +12,9 @@ import Room from "../Assets/room.JPG";
 import Shoe from "../Assets/Shoe.JPG";
 import LandVault from "../Assets/LandVault.JPG";
 import Todo from "../Assets/TodoJPG.JPG";
-import Youtube from '../Assets/youtube.JPG'
-import IP from '../Assets/IP.JPG'
+import Youtube from '../Assets/youtube.JPG';
+import IP from '../Assets/IP.JPG';
+import Advice from '../Assets/advice.JPG';
 function Projects() {
   return (
     <div id='projects'>
@@ -98,6 +99,12 @@ function Projects() {
           href='https://ip-address-manaboy.vercel.app/'
           src={IP}
           des='A front-end mentor challenge that put my brain to the test, i worked with react-leaflet and geolocation api and also Nomantim api, Personally this is one of my favs'
+        />
+        <ProjectProps
+          name='Advice generator'
+          href='https://advice-gen-psi.vercel.app/'
+          src={Advice}
+          des='A front-end mentor challenge , i worked with an advice generator api ...Love working with api so far'
         />
 
       </section>
